@@ -16,7 +16,7 @@
 #logo {
   margin-left: 90px;
   margin-right: 350px;
-  color:white;
+  color: white;
   font-size: 25px;
 }
 
@@ -102,7 +102,7 @@ a:hover {
 }
 #aboutHero h1 {
   font-size: 38px;
-  font-weight:900;
+  font-weight: 900;
 }
 
 #aboutHero p {
@@ -125,7 +125,6 @@ a:hover {
   margin: 0 10px;
   color: #b8bfd5;
 }
-
 
 #sec1 {
   width: 100%;
@@ -153,7 +152,7 @@ a:hover {
   font-size: 40px;
   margin-top: 30px;
   font-weight: 600;
-    margin-right: 50px;
+  margin-right: 50px;
 }
 #subhead {
   margin-top: 20px;
@@ -164,5 +163,204 @@ a:hover {
   color: rgb(125, 124, 124);
   letter-spacing: 0.1mm;
   text-align: center;
-    margin-right: 50px;
+  margin-right: 50px;
+}
+
+@media (max-width: 992px) {
+  .nav {
+    padding: 15px 25px;
+  }
+
+  #logo {
+    margin-left: 10px;
+    margin-right: 40px;
+    font-size: 23px;
+  }
+
+  .navmenu {
+    gap: 3px;
+  }
+
+  .navmenu div a {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  #started {
+    width: 110px;
+    font-size: 13px;
+  }
+
+  .secdiv {
+    height: 260px;
+  }
+
+  #aboutHero {
+    margin-top: 40px;
+  }
+
+  #aboutHero h1 {
+    font-size: 34px;
+  }
+
+  #sec1 {
+    padding: 50px 30px 0;
+  }
+
+  #capa,
+  #head,
+  #subhead {
+    margin-right: 0;
+  }
+
+  #head {
+    font-size: 36px;
+  }
+
+  #subhead {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 15px 20px;
+    flex-wrap: wrap;
+  }
+
+  #logo {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 22px;
+  }
+
+  .navmenu {
+    gap: 2px;
+  }
+
+  .navmenu div a {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  #started {
+    width: 100px;
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .secdiv {
+    height: 240px;
+  }
+
+  #aboutHero {
+    margin-top: 35px;
+    padding: 0 15px;
+  }
+
+  #aboutHero h1 {
+    font-size: 30px;
+  }
+
+  #aboutHero p {
+    font-size: 13px;
+  }
+
+  #sec1 {
+    padding: 40px 20px 0;
+  }
+
+  #capa {
+    font-size: 11px;
+  }
+
+  #head {
+    font-size: 30px;
+    margin-top: 25px;
+  }
+
+  #subhead {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav {
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  #logo {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .navmenu {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .navmenu div a {
+    padding: 7px 9px;
+    font-size: 12px;
+  }
+
+  #started {
+    width: 120px;
+    font-size: 12px;
+  }
+
+  .secdiv {
+    height: 280px;
+  }
+
+  #aboutHero {
+    margin-top: 30px;
+    padding: 0 10px;
+  }
+
+  #aboutHero h1 {
+    font-size: 26px;
+  }
+
+  #aboutHero p {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  #aboutHero p b {
+    margin: 0 5px;
+    font-size: 12px;
+  }
+
+  #sec1 {
+    padding: 35px 15px 0;
+  }
+
+  #capa {
+    padding: 7px 10px;
+    font-size: 10px;
+    letter-spacing: 0.2mm;
+  }
+
+  #head {
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 1.4;
+  }
+
+  #subhead {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0;
+  }
 }

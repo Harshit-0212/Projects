@@ -465,19 +465,15 @@ input:checked + .slider:before {
 }
 
 #accordionfaq {
-  /* Closed header button background and text color */
   --bs-accordion-btn-bg: white;
   --bs-accordion-btn-color: #212529;
-
-  /* Open/Expanded header button background and text color */
   --bs-accordion-active-bg: white;
   --bs-accordion-active-color: black;
-
-  /* Body background color */
   --bs-accordion-bg: #ffffff;
   color: black;
   border-radius: 10px;
 }
+
 .accordion-body p {
   font-family: sans-serif;
   color: grey;

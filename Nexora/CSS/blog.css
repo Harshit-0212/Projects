@@ -527,4 +527,419 @@ td[rowspan="2"] {
   color: white;
   background-color: none;
 }
+@media (max-width: 992px) {
+  .nav {
+    padding: 20px 30px;
+  }
+
+  #logo {
+    margin-right: 30px;
+    font-size: 23px;
+  }
+
+  .navmenu {
+    gap: 3px;
+  }
+
+  .navlink {
+    padding: 10px 8px;
+    font-size: 14px;
+  }
+
+  #started {
+    width: 110px;
+    font-size: 12px;
+  }
+
+  #sec1 {
+    padding: 50px 30px;
+  }
+
+  #capa,
+  #head,
+  #subhead {
+    margin-right: 0;
+  }
+
+  #head {
+    font-size: 34px;
+  }
+
+  #subhead {
+    width: 80%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 40px 20px;
+    overflow-x: auto;
+  }
+
+  .container table {
+    min-width: 850px;
+  }
+
+  #text2 span {
+    margin: 0;
+  }
+
+  .container2 {
+    width: 75%;
+  }
+
+  #footmain {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+  }
+
+  #footabout p {
+    width: 100%;
+  }
+
+  #emailbox input {
+    width: 100%;
+    min-width: 0;
+  }
+
+  #footbottom ul {
+    gap: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    height: auto;
+    min-height: 75px;
+    padding: 15px 25px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  #logo {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .navmenu {
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .navlink {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  #started {
+    width: 105px;
+    height: 34px;
+  }
+
+  #aboutHero {
+    height: 170px;
+    padding: 40px 15px 0;
+  }
+
+  #aboutHero h1 {
+    font-size: 32px;
+  }
+
+  #sec1 {
+    padding: 45px 25px;
+  }
+
+  #head {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  #subhead {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 30px 15px;
+  }
+
+  .container table {
+    border-spacing: 10px;
+  }
+
+  #sec2 {
+    padding: 65px 20px;
+  }
+
+  #text2 h2 {
+    font-size: 27px;
+    margin-bottom: 35px;
+  }
+
+  .container2 {
+    width: 90%;
+  }
+
+  #footmain {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 35px 25px;
+    padding-bottom: 50px;
+  }
+
+  #footer {
+    padding: 60px 5% 25px;
+  }
+
+  #footbottom {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  #footbottom ul {
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 25px;
+  }
+
+  #top {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav {
+    padding: 15px;
+    justify-content: center;
+  }
+
+  #logo {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .navmenu {
+    gap: 2px;
+  }
+
+  .navlink {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  #started {
+    width: 100px;
+    height: 32px;
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  #aboutHero {
+    height: 155px;
+    padding-top: 35px;
+  }
+
+  #aboutHero h1 {
+    font-size: 28px;
+  }
+
+  #aboutHero p {
+    font-size: 12px;
+  }
+
+  #sec1 {
+    padding: 40px 15px;
+  }
+
+  #capa {
+    font-size: 10px;
+  }
+
+  #head {
+    margin-top: 22px;
+    font-size: 26px;
+  }
+
+  #subhead {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .container {
+    padding: 25px 10px;
+  }
+
+  .container table {
+    min-width: 800px;
+    border-spacing: 8px;
+  }
+
+  .one,
+  .two,
+  .third {
+    padding: 12px;
+  }
+
+  .one {
+    height: 180px;
+  }
+
+  .one img,
+  .one .img-placeholder {
+    width: 130px;
+    height: 145px;
+  }
+
+  .one-content {
+    margin-left: 12px;
+  }
+
+  .one-content span,
+  .two span,
+  .third span {
+    font-size: 20px;
+  }
+
+  .one-content p,
+  .two p,
+  .third p {
+    font-size: 12px;
+  }
+
+  .third {
+    height: 380px;
+  }
+
+  .tall-img-placeholder {
+    height: 170px;
+  }
+
+  #sec2 {
+    padding: 50px 15px;
+  }
+
+  #text2 span {
+    font-size: 10px;
+  }
+
+  #text2 h2 {
+    font-size: 23px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+  }
+
+  .container2 {
+    width: 100%;
+  }
+
+  .accordion-item {
+    margin: 8px 0;
+  }
+
+  .accordion-button {
+    font-size: 14px;
+    padding: 14px;
+  }
+
+  .accordion-body {
+    padding: 12px;
+  }
+
+  .accordion-body p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  #footer {
+    padding: 45px 20px 20px;
+  }
+
+  #footmain {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding-bottom: 35px;
+  }
+
+  #footer h3 {
+    margin-bottom: 18px;
+  }
+
+  #footabout p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #company ul a,
+  #footservices ul a {
+    font-size: 14px;
+  }
+
+  #company li,
+  #footservices li {
+    margin-bottom: 14px;
+  }
+
+  #social {
+    flex-wrap: wrap;
+  }
+
+  #social a {
+    width: 42px;
+    height: 42px;
+  }
+
+  #newsletter p {
+    font-size: 14px;
+  }
+
+  #emailbox {
+    width: 100%;
+  }
+
+  #emailbox input {
+    width: 100%;
+    min-width: 0;
+    height: 48px;
+  }
+
+  #emailbox button {
+    flex-shrink: 0;
+    width: 55px;
+    height: 48px;
+    font-size: 20px;
+  }
+
+  #footbottom {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+  }
+
+  #footbottom p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  #footbottom ul {
+    gap: 15px;
+  }
+
+  #footbottom ul a {
+    font-size: 12px;
+  }
+
+  #top {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
 

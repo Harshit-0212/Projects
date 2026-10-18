@@ -412,7 +412,7 @@ navmenu a:hover {
   color: grey;
 }
 
-#one {
+.one {
   margin: 0px 0px 25px;
   display: flex;
   justify-content: center;
